@@ -28,9 +28,9 @@ our solution is to provide an e-commerce app that offers all kind of olive craft
 
 4- As a customer, I will be able to remove the product from the cart, so that I won't have to pay for it.
 
-4- As a customer I want to make an easy purchase, I need to pay by my Credit Card.
+5- As a customer I want to make an easy purchase, I need to pay by my Credit Card.
 
-5- As a customer who made a purchase, I need to get my order fulfilled correctly in a timely manner so that I don’t have to follow-up via customer service.
+6- As a customer who made a purchase, I need to get my order fulfilled correctly in a timely manner so that I don’t have to follow-up via customer service.
 
 # Technology Used:
 This project has been developed only by  React Native :star_struck:
