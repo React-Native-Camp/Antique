@@ -15,7 +15,7 @@ our solution is to provide an e-commerce app that offers all kind of olive craft
 
 # The Journey
 
-[![image](https://www.linkpicture.com/q/h_12.png)](https://www.linkpicture.com/view.php?img=LPic5fb379a1a0c9f1431643752)
+![image](https://www.linkpicture.com/q/h_12.png)
 
 
 # User Story:
@@ -33,7 +33,7 @@ our solution is to provide an e-commerce app that offers all kind of olive craft
 5- As a customer who made a purchase, I need to get my order fulfilled correctly in a timely manner so that I don’t have to follow-up via customer service.
 
 # Technology Used:
-This project has been developed by Only React Native :star_struck:
+This project has been developed only by  React Native :star_struck:
 
 # Our Team:
 
