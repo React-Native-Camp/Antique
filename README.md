@@ -15,7 +15,7 @@ our solution is to provide an e-commerce app that offers all kind of olive craft
 
 # The Journey
 
-![image](https://www.linkpicture.com/q/h_12.png)
+![Img](https://user-images.githubusercontent.com/45401690/99420670-29a2a680-2906-11eb-9c18-d9f2066ac653.png)
 
 
 # User Story:
@@ -43,7 +43,7 @@ We are glad that we contribute as a team to make this app published:
 - [Yaqoot Turman](https://github.com/React-Native-Camp/Antique/commits?author=yaqootturman)
 - [Rand Inaim](https://github.com/RandInaim)
 - [Abed-Alfattah Sowaity](https://github.com/aboodswiti)
-- [DuaaH](https://github.com/DuaaH)
+- [Duaa Halayqa](https://github.com/DuaaH)
 
 
 
