@@ -43,6 +43,7 @@ We are glad that we contribute as a team to make this app published:
 - [Yaqoot Turman](https://github.com/React-Native-Camp/Antique/commits?author=yaqootturman)
 - [Rand Inaim](https://github.com/RandInaim)
 - [Abed-Alfattah Sowaity](https://github.com/aboodswiti)
+- [DuaaH](https://github.com/DuaaH)
 
 
 
