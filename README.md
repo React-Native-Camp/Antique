@@ -14,7 +14,8 @@ our solution is to provide an e-commerce app that offers all kind of olive craft
 
 
 # The Journey
-![Customer Journey ](https://ibb.co/sVnFWS0)
+
+[![image](https://www.linkpicture.com/q/h_12.png)](https://www.linkpicture.com/view.php?img=LPic5fb379a1a0c9f1431643752)
 
 
 # User Story:
