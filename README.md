@@ -1,16 +1,16 @@
 # Antique
-it's an Ecommerce app for olive Crafts from the holy land cities "Bethlehem & Jerusalem" 
+it's an Ecommerce app for olive Crafts from the holy land cities 
 
 ## The problem:
 - Tourists cant Visit the holy land due to COVID.
 - Since we are close to Christmas and many foreigners would love to buy special gifts from the holy land.
-- The economy has draft down in Bethlehem and Jerusalem cities, cause it based on tourism.
+- The economy has draft down in Palestinian cities, cause it based on tourism.
 
 
 ## The Solution:
 our solution is to provide an e-commerce app that offers all kind of olive crafts to ship them abroad which will be available at the customer's hands 
 
-## [Figma Prototype link here !](https://www.figma.com/file/2lq92ElwFbCEn91SQ7cOgU/Untitled?node-id=0%3A1)
+## [Figma Prototype link here !](https://www.figma.com/file/vB99F2b3xNt9Sn0GyhwdKp/Antique?node-id=0%3A1)
 
 
 # The Journey
@@ -28,19 +28,21 @@ our solution is to provide an e-commerce app that offers all kind of olive craft
 
 4- As a customer, I will be able to remove the product from the cart, so that I won't have to pay for it.
 
-5- As a customer I want to make an easy purchase, I need to pay by my Credit Card.
-
-6- As a customer who made a purchase, I need to get my order fulfilled correctly in a timely manner so that I don’t have to follow-up via customer service.
+5- As a customer I want to make an easy purchase, I need to pay by my Card.
 
 # Technology Used:
-This project has been developed only by  React Native :star_struck:
+This project has been developed by 
+- React Native, react-native-elements
+- react-native-snap-carousel
+- Formik
+- Typescript
+- Redux
 
 # Our Team:
 
 We are glad that we contribute as a team to make this app published:
 - [Karmel Salah](https://github.com/karmelyoei) 
-
-- [Yaqoot Turman](https://github.com/React-Native-Camp/Antique/commits?author=yaqootturman)
+- [Yaqoot Turman](https://github.com/yaqootturman)
 - [Rand Inaim](https://github.com/RandInaim)
 - [Abed-Alfattah Sowaity](https://github.com/aboodswiti)
 - [Duaa Halayqa](https://github.com/DuaaH)
