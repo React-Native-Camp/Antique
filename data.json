@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "ceramics cups",
+      "price": "$14",
+      "picture": "http://www.webgaza.net/images/palestine/Traditional_crafts/Olivewood_Carving.jpg",
+      "brief": "Olivewood is a local material found throughout Palestine, and the wood carving can be traced back to the 16th and 17th centuries. Travelers' accounts and historical documents describe the beauty of olive wood rosaries and crucifixes and their popularity among pilgrims."
+    },
+    {
+      "id": "2",
+      "name": "Olive Oil",
+      "price": "$10",
+      "picture": "https://post.greatist.com/wp-content/uploads/sites/3/2020/02/266258_2200-732x549.jpg",
+      "brief": "is a liquid fat obtained from olives (the fruit of Olea europaea; family Oleaceae), a traditional tree crop of the Mediterranean Basin, produced by pressing whole olives and extracting the oil. Olive oil is the most common vegetable oil. It is commonly used in cooking, for frying foods or as a salad dressing."
+    },
+    {
+      "id": "3",
+      "name": "Majdalawi Weaving",
+      "price": "$50",
+      "picture": "http://www.webgaza.net/images/palestine/Traditional_crafts/Majdalawi_Weaving.jpg",
+      "brief": "Originated from the Palestinian village of Al-Majdal (Israeli city of Ashkelon today), the Majdalawi fabric is a traditional Palestinian cloth woven by a male weaver on single treadle looms, using black and indigo cotton threads combined with silk threads in fuchsia and turquoise."
+    },
+    {
+      "id": "4",
+      "name": "Tatreez",
+      "price": "$60",
+      "picture": "http://www.webgaza.net/images/palestine/Traditional_crafts/Tatreez.jpg",
+      "brief": "Once a traditional craft practiced by village women, Palestinian cross-stitch embroidery has become an important symbol of Palestinian culture. Embroidered pieces can be found in the homes of most Palestinian families in the West Bank, Gaza Strip, Israel and the Diaspora beyond, adorning the walls of houses in Jerusalem, villas in the Gulf, suburban homes in the United States, and cement block houses in refugee camps. In addition, cross-stitch embroidery is given as gifts and worn by Palestinians worldwide on festive occasions."
+    },
+    {
+      "id": "5",
+      "name": "Glass",
+      "price": "$15",
+      "picture": "http://www.webgaza.net/images/palestine/Traditional_crafts/Glass.jpg",
+      "brief": "The city of Hebron is also known worldwide for its famous glass blowers and designers. Glass factories, where hand-blown glass products are made, have been a feature of the city since the Middle Ages. Here one may observe, from beginning to end, the fascinating process of glass-blowing. This traditional craft has been adapted for factory production methods. The royal blue glass of Hebron is perhaps the most recognizable in the Middle East, but glass blowers also create items in many other beautiful colors."
+    },
+    {
+      "id": "6",
+      "name": "Olive wood Carving",
+      "price": "$30",
+      "picture": "http://www.webgaza.net/images/palestine/Traditional_crafts/Olivewood_Carving.jpg",
+      "brief": "Olivewood is a local material found throughout Palestine, and the wood carving can be traced back to the 16th and 17th centuries. Travelers' accounts and historical documents describe the beauty of olive wood rosaries and crucifixes and their popularity among pilgrims."
+    },
+    {
+      "id": "7",
+      "name": "Olive Oil Soap",
+      "price": "$15",
+      "picture": "http://www.webgaza.net/images/palestine/Traditional_crafts/Olive_Oil_Soap.jpg",
+      "brief": "Palestinians are as particular about their choice of olive oil as the French or Italians are about their food. The oil from Ramallah is light and a little bitter, while oil from Beit Jala is heavier and bitter like freshly pickled olives. Most oils in the area are the result of the first cold pressing."
+    }
+  ]
+}
