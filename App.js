@@ -20,7 +20,7 @@ import {
 } from 'react-native';
 
 const navigationStak = createStackNavigator({
-  Home: { screen: Home },
+  Home: { screen: Home, navigationOptions: { headerShown: false} },
 });
 
 const Navigation = createAppContainer(navigationStak);
