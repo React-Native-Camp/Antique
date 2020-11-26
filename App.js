@@ -7,6 +7,9 @@
  */
 
 import React from 'react';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import Home from './src/components/Home'
 import {
   SafeAreaView,
   StyleSheet,
@@ -16,21 +19,15 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+const navigationStak = createStackNavigator({
+  Home: { screen: Home, navigationOptions: { headerShown: false} },
+});
+
+const Navigation = createAppContainer(navigationStak);
 
 const App: () => React$Node = () => {
   return (
-    <>
-      <View>
-        <Text>Antique</Text>
-      </View>
-    </>
+    <Navigation />
   );
 };
 
