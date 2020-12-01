@@ -18,16 +18,22 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import CardDetails from './src/components/CardDetails';
+import { Provider as StoreProvider } from 'react-redux'
+import store from './src/redux/store'
 
 const navigationStak = createStackNavigator({
-  Home: { screen: Home, navigationOptions: { headerShown: false} },
+  Home: { screen: Home, navigationOptions: { headerShown: false } },
+  Details: { screen: CardDetails }
 });
 
 const Navigation = createAppContainer(navigationStak);
 
 const App: () => React$Node = () => {
   return (
-    <Navigation />
+    <StoreProvider store={store}>
+      <Navigation />
+    </StoreProvider>
   );
 };
 
