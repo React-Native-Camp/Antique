@@ -4,7 +4,8 @@ import data from '../../data.json'
 import { SearchBar } from 'react-native-elements'
 import ProductCard from './ProductCard'
 
-function Home() {
+function Home(props) {
+  console.log("pp", props);
   const [productss, setproducts] = useState(data.products)
   const [input, setinput] = useState('')
 
@@ -12,12 +13,13 @@ function Home() {
     setinput(e);
   }
 
+
   return (
     <ScrollView >
       <SearchBar
         round
         searchIcon={{ size: 25 }}
-        placeholder="Type Here......"
+        placeholder="Type Here..."
         onChangeText={updateInput}
         value={input}
       />
@@ -25,7 +27,7 @@ function Home() {
         {input ? data.products.filter(e => e.name.includes(input)).map((item, index) => {
           return <ProductCard key={item.id} item={item} />
         }) : productss.map((item, index) => {
-          return <ProductCard key={item.id} item={item} />
+          return <ProductCard key={item.id} item={item} navigation={props.navigation} />
         })}
       </View>
     </ScrollView>
