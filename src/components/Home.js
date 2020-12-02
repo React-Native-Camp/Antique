@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, Image, ScrollView, TouchableOpacity } from 'react-native';
+import { View, Text, Image, ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
 import data from '../../data.json'
 import { SearchBar } from 'react-native-elements'
 import ProductCard from './ProductCard'
@@ -23,7 +23,7 @@ function Home(props) {
         onChangeText={updateInput}
         value={input}
       />
-      <View style={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap' }}>
+      <View style={styles.cardContainer}>
         {input ? data.products.filter(e => e.name.includes(input)).map((item, index) => {
           return <ProductCard key={item.id} item={item} />
         }) : productss.map((item, index) => {
@@ -33,5 +33,13 @@ function Home(props) {
     </ScrollView>
   );
 }
+
+const styles = StyleSheet.create({
+  cardContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    flexWrap: 'wrap'
+  },
+});
 
 export default Home;
