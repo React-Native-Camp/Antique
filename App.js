@@ -9,7 +9,8 @@
 import React from 'react';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import Home from './src/components/Home'
+import Home from './src/components/Home';
+import ShoppingCartIcon from './src/components/ShoppingCartIcon';
 import {
   SafeAreaView,
   StyleSheet,
@@ -18,16 +19,29 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import CardDetails from './src/components/CardDetails';
+import { Provider as StoreProvider } from 'react-redux';
+import store from './src/redux/store';
 
 const navigationStak = createStackNavigator({
-  Home: { screen: Home, navigationOptions: { headerShown: false} },
+  Home: {
+    screen: Home, navigationOptions: {
+      headerRight: props => <ShoppingCartIcon {...props} />, headerTintColor: '#013A20',
+      headerTitleStyle: {
+        fontWeight: 'bold',
+      }
+    }
+  },
+  Details: { screen: CardDetails }
 });
 
 const Navigation = createAppContainer(navigationStak);
 
 const App: () => React$Node = () => {
   return (
-    <Navigation />
+    <StoreProvider store={store}>
+      <Navigation />
+    </StoreProvider>
   );
 };
 
