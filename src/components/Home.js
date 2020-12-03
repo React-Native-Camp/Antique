@@ -13,7 +13,6 @@ function Home(props) {
     setinput(e);
   }
 
-
   return (
     <ScrollView >
       <SearchBar

@@ -4,10 +4,12 @@ import data from '../../data.json'
 import { Card, ListItem, Button, Icon, SearchBar } from 'react-native-elements'
 import { useSelector, useDispatch } from 'react-redux'
 import { SET_PRODUCT_DETAILS } from '../redux/actions'
+import { useNavigation } from '@react-navigation/native'
+
 
 function ProductCard(props) {
-  const { item, navigation } = props
-
+  const { item } = props
+  const navigation = useNavigation()
   const dispatch = useDispatch()
 
   const onClickDetails = () => {
