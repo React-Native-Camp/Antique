@@ -1,52 +1,32 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
-import React from 'react';
-import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
-import Home from './src/components/Home';
-import ShoppingCartIcon from './src/components/ShoppingCartIcon';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import * as React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
 import CardDetails from './src/components/CardDetails';
 import { Provider as StoreProvider } from 'react-redux';
 import store from './src/redux/store';
+import CartScreen from './src/components/CartScreen';
+import Home from './src/components/Home';
+import ShoppingCartIcon from './src/components/ShoppingCartIcon';
 
-const navigationStak = createStackNavigator({
-  Home: {
-    screen: Home, navigationOptions: {
-      headerRight: props => <ShoppingCartIcon {...props} />, headerTintColor: '#013A20',
-      headerTitleStyle: {
-        fontWeight: 'bold',
-      }
-    }
-  },
-  Details: { screen: CardDetails }
-});
 
-const Navigation = createAppContainer(navigationStak);
+const Stack = createStackNavigator()
 
-const App: () => React$Node = () => {
+
+export default function App() {
   return (
     <StoreProvider store={store}>
-      <Navigation />
-    </StoreProvider>
-  );
-};
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name='Home' component={Home} options={{
+            headerRight: props => <ShoppingCartIcon {...props} />, headerTintColor: '#013A20',
+            headerTitleStyle: {
+              fontWeight: 'bold',
+            }
+          }} />
+          <Stack.Screen name='Details' component={CardDetails} />
+          <Stack.Screen name='Cart' component={CartScreen} />
 
-const styles = StyleSheet.create({
-
-});
-
-export default App;
+        </Stack.Navigator>
+      </NavigationContainer>
+    </StoreProvider>)
+}
